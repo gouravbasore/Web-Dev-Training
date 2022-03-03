@@ -1,4 +1,5 @@
 // for of loop in array
+// most used loop
 
 const fruits = ["Apple","Mango","Banana"];
 const fruitsUpper = [];
