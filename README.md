@@ -10,183 +10,185 @@
 
 Topics Covered:
 
-JavaScript vs EcmaScript 
-Install vscode and run first program
+1. JavaScript vs EcmaScript 
+2. Install vscode and run first program
 
-Basics of Programming in JavaScript
-Hello world program
-Declare variable using var
-More about variable
-Let
-Const
-String Indexing
-Useful string methods
-Template Strings
-Null, undefined, BigInt, typeof
-Booleans and Comparison Operator
-Truthy and Falsy Values
-If else statement
-Ternary Operator
-&& || operator
-Nested if else
-If elseif else
-Switch statement
-While loop 
-While loop examples
-For loop
-For loop examples
-Break and continue keyword
-Do while loop
-Arrays in JavaScript
-Intro to arrays
-Push pop shift unshift
-Primitive vs reference data types
-Clone array & spread operator
-For loop
-use const for creating arrays
-While loop in array
-For of loop
-For in loop
-Array destructuring
+1.	Basics of Programming in JavaScript
+2.	Hello world program
+3.	Declare variable using var
+4.	More about variable
+5.	Let
+6.	Const
+7.	String Indexing
+8.	Useful string methods
+9.	Template Strings
+10.	Null, undefined, BigInt, typeof
+11.	Booleans and Comparison Operator
+12.	Truthy and Falsy Values
+13.	If else statement
+14.	Ternary Operator
+15.	&& || operator
+16.	Nested if else
+17.	If elseif else
+18.	Switch statement
+19.	While loop
+20.	While loop examples
+21.	For loop
+22.	For loop examples
+23.	Break and continue keyword
+24.	Do while loop
 
-Objects in JavaScript
-Intro to objects
-Dot vs Bracket Notation
-Iterate objects
-Computed properties
-Spread operator in objects
-Object Destructuring
-Objects inside Array
-Nested Destructuring
+## Arrays in JavaScript
 
-Functions in JavaScript
-Function declaration
-Function Expression
-Arrow Functions
-Function declarations are hoisted  (covered in great detail , later in this course)
-Function inside function
-Lexical Scope
-Block Scope Vs Function Scope
-Default Parameters
-Rest Parameters
-Parameter Destructuring
-Very brief intro to callback functions(covered in great detail , later in the course)
-Functions returning Functions 
+1.	Intro to arrays
+2.	Push pop shift unshift
+3.	Primitive vs reference data types
+4.	Clone array & spread operator
+5.	For loop
+6.	use const for creating arrays
+7.	While loop in array
+8.	For of loop
+9.	For in loop
+10.	Array destructuring
 
-Very Important Array Methods
-Foreach method
-Map method
-Filter
-Reduce
-Sort
-Find
-Every
-Some
-Fill method
-Splice method
+## Objects in JavaScript
+
+1.	Intro to objects
+2.	Dot vs Bracket Notation
+3.	Iterate objects
+4.	Computed properties
+5.	Spread operator in objects
+6.	Object Destructuring
+7.	Objects inside Array
+8.	Nested Destructuring
 
 
-More useful things 
-Iterables
-Sets
-Maps
-Object.assign
-Optional chaining
+## Functions in JavaScript
+1.	Function declaration
+2.	Function Expression
+3.	Arrow Functions
+4.	Function declarations are hoisted  (covered in great detail , later in this course)
+5.	Function inside function
+6.	Lexical Scope
+7.	Block Scope Vs Function Scope
+8.	Default Parameters
+9.	Rest Parameters
+10.	Parameter Destructuring
+11.	Very brief intro to callback functions(covered in great detail , later in the course)
+12.	Functions returning Functions
 
 
-Object Oriented JavaScript / Prototypal Inheritance
-Methods
-This keyword, Window object
-Call , apply and bind method
-Some warnings
-This inside arrow functions
-Short syntax for methods
-Factory functions & discuss some memory related problems
-First solution to that problem
-Why that solution isn’t that great
-What is __proto__ , [[prototype]]
-What is prototype
-Use prototype
-New keyword
-Constructor function with new keyword
-More discussion about proto and prototype
-Class keyword
-Example using class keyword
-Super keyword
-Method overriding
-Getters and setters
-Static methods and properties
+## Very Important Array Methods
+1.	Foreach method
+2.	Map method
+3.	Filter
+4.	Reduce
+5.	Sort
+6.	Find
+7.	Every
+8.	Some
+9.	Fill method
+10.	Splice method
 
-How JavaScript Works
-Global Execution context
-This and window in global execution context
-Hoisting
-Are let and const are hoisted ? What is a reference Error ? 
-Function execution context
-Scope chain and lexical environment
-Intro to closures
-Closure example 1
-Closure Example 2
-Closure Example 3
+##	More useful things
+1.	Iterables	
+2.	Sets	
+3.	Maps	
+4.	Object.assign	
+5.	Optional chaining
 
-DOM Tutorial
+## Object Oriented JavaScript / Prototypal Inheritance
 
-HTML and CSS Crash course ( Around 30-40 minutes)
-Async vs defer
-Select elements using id
-querySelector
-textContent & innerText
-Change the styles of elements using js
-Get and set attributes
-Select multiple elements and loop through them
-innerHTML
-Deeply understand dom tree, root node , element nodes, text nodes
-classList
-Add new elements to page
-Create elements
-Insert adjacent elements
-Clone nodes
-More methods to add elements on page
-How to get the dimensions of the element
-Intro to events
-This keyword inside eventListener callback
-Add events on multiple elements
-Event object
-How event listener works
-Practice with events
-Create demo project
-More events
-Event bubbling
-Event Capturing
-Event delegation 
-Create Project using event delegation
+1.	Methods
+2.	This keyword, Window object
+3.	Call , apply and bind method
+4.	Some warnings
+5.	This inside arrow functions
+6.	Short syntax for methods
+7.	Factory functions & discuss some memory related problems
+8.	First solution to that problem
+9.	Why that solution isn’t that great
+10.	What is __proto__ , [[prototype]]
+11.	What is prototype
+12.	Use prototype
+13.	New keyword
+14.	Constructor function with new keyword
+15.	More discussion about proto and prototype
+16.	Class keyword
+17.	Example using class keyword
+18.	Super keyword
+19.	Method overriding
+20.	Getters and setters
+21.	Static methods and properties
 
-Asynchronous JavaScript
-Is Javascript a synchronous or asynchronous programming language ? 
-SetTimeout()
-SetTimeout() with 0 millisecond
-Callback Queue
-SetInterval and create little project with setInterval
-Understand callbacks in general
-Callbacks in asynchronous programming 
-Callback Hell and Pyramid of doom
-Intro to promises
-Microtask Queue
-Function that returns promise
-Promise and settimeout
-Promise.resolve and more about then method
-Convert nested Callbacks to flat code using promises
-Intro to Ajax, HTTP Request
-XHR requests
-Error handling in XHR requests
-XHR request Chaining 
-Promisifying XHR requests and chaining using then method
-Fetch API
-Error Handling in Fetch API
-Consume Promises with async and Await
-Split code into multiple files using ES6 modules.
-Congratulations 
-Now you know javascript in Great Details
-What next ? 
+## How JavaScript Works
+1.	Global Execution context
+2.	This and window in global execution context
+3.	Hoisting
+4.	Are let and const are hoisted ? What is a reference Error ?
+5.	Function execution context
+6.	Scope chain and lexical environment
+7.	Intro to closures
+8.	Closure example 1
+9.	Closure Example 2
+10.	Closure Example 3
 
+## DOM Tutorial
+1.	HTML and CSS Crash course ( Around 30-40 minutes)
+2.	Async vs defer
+3.	Select elements using id
+4.	querySelector
+5.	textContent & innerText
+6.	Change the styles of elements using js
+7.	Get and set attributes
+8.	Select multiple elements and loop through them
+9.	innerHTML
+10.	Deeply understand dom tree, root node , element nodes, text nodes
+11.	classList
+12.	Add new elements to page
+13.	Create elements
+14.	Insert adjacent elements
+15.	Clone nodes
+16.	More methods to add elements on page
+17.	How to get the dimensions of the element
+18.	Intro to events
+19.	This keyword inside eventListener callback
+20.	Add events on multiple elements
+21.	Event object
+22.	How event listener works
+23.	Practice with events
+24.	Create demo project
+25.	More events
+26.	Event bubbling
+27.	Event Capturing
+28.	Event delegation
+29.	Create Project using event delegation
 
+## Asynchronous JavaScript
+1.	Is Javascript a synchronous or asynchronous programming language ?
+2.	SetTimeout()
+3.	SetTimeout() with 0 millisecond
+4.	Callback Queue
+5.	SetInterval and create little project with setInterval
+6.	Understand callbacks in general
+7.	Callbacks in asynchronous programming
+8.	Callback Hell and Pyramid of doom
+9.	Intro to promises
+10.	Microtask Queue
+11.	Function that returns promise
+12.	Promise and settimeout
+13.	Promise.resolve and more about then method
+14.	Convert nested Callbacks to flat code using promises
+15.	Intro to Ajax, HTTP Request
+16.	XHR requests
+17.	Error handling in XHR requests
+18.	XHR request Chaining
+19.	Promisifying XHR requests and chaining using then method
+20.	Fetch API
+21.	Error Handling in Fetch API
+22.	Consume Promises with async and Await
+23.	Split code into multiple files using ES6 modules.	
+
+> Congratulations
+>> ***Now you know javascript in Great Details
+What next ?***
