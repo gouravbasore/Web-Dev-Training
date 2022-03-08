@@ -10,8 +10,11 @@
 
 Topics Covered:
 
+## Getting Started 
 1. JavaScript vs EcmaScript 
 2. Install vscode and run first program
+
+## Basics
 
 1.	Basics of Programming in JavaScript
 2.	Hello world program
