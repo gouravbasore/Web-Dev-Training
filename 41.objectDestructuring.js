@@ -21,7 +21,7 @@ const { bandName, famousSong, ...restProps } = band;
 console.log(bandName, famousSong);
 
 // will create two let variables renaming variables
-const { bandName: var1, famousSong: var2 } = band;
+let { bandName: var1, famousSong: var2 } = band;
 console.log(var1, var2); 
 
 // Left over properties in an object

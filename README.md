@@ -8,7 +8,7 @@
 ## Part 2: https://www.youtube.com/watch?v=Llsq1y-HWs4&t=0s
 ## Part 3: https://www.youtube.com/watch?v=pAl_uGXKXq8
 
-Topics Covered:
+# Topics Covered:
 
 ## Getting Started 
 1. JavaScript vs EcmaScript 
@@ -193,5 +193,4 @@ Topics Covered:
 23.	Split code into multiple files using ES6 modules.	
 
 > Congratulations
->> ***Now you know javascript in Great Details
-What next ?***
+>> ***Now you know javascript in Great Details What next ?***
