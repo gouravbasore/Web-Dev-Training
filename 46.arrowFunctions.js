@@ -1,23 +1,24 @@
-// JavaScript Functions
+// JavaScript Arrow Functions
+// Single Parameters can omit () brackets
+// Single Body can omit return and {}
 
-function singHappyBirthday() {
-    console.log("Happy Birthday");
-}
+/* 
+function abc(){}
+
+abc = function(){}
+abc = () => {}
+ */
+
 
 // person here is parameter
-function singHappyBirthday(person) {
-    console.log("Happy Birthday", person);
-}
+const singHappyBirthday = person =>  console.log("Happy Birthday", person);
 
-// Same function if declared twice will override the latest one
+
 // "Kamini" here is argument
-singHappyBirthday();
 singHappyBirthday("Kamini");
 
 
-function sumTwoNumbers(num1, num2) {
-    return num1 + num2;
-}
+const sumTwoNumbers = (num1, num2) => num1 + num2;
 
 console.groupCollapsed("sumTwoNumbers");
 console.log(sumTwoNumbers()); // as undefined+undefined is NaN
@@ -28,7 +29,7 @@ console.log(sumTwoNumbers(-3, 4)); // 1
 console.groupEnd();
 
 // Method 1
-function isEven(num1) {
+let isEven = (num1) => {
     if (num1 % 2 === 0) {
         return true;
     } else {
@@ -37,7 +38,7 @@ function isEven(num1) {
 }
 
 // Method 2
-function isEven(num1) {
+isEven = (num1) => {
     if (num1 % 2 === 0) {
         return true;
     }
@@ -45,9 +46,8 @@ function isEven(num1) {
 }
 
 // Method 3
-function isEven(num1) {
-    return num1 % 2 === 0;
-}
+isEven = (num1) => num1 % 2 === 0;
+
 
 console.groupCollapsed("isEven");
 console.log(isEven(2)); //true
@@ -62,7 +62,7 @@ console.groupEnd();
 
 console.groupCollapsed("firstChar");
 
-function firstChar(var1) {
+firstChar = (var1) => {
     return var1[0];
 }
 
@@ -74,7 +74,7 @@ console.log(firstChar(true));  // undefined // as it is boolean
 console.groupEnd();
 
 console.group("findIndex");
-function findIndex(array, target){
+const findIndex = (array, target) =>{
     for (item in array) {
         if (array[item] == target) { 
           //  console.log("aa",array[item]);

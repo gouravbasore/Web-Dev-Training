@@ -1,11 +1,11 @@
-// JavaScript Functions
+// JavaScript Function Expressions
 
-function singHappyBirthday() {
+let singHappyBirthday = function() {
     console.log("Happy Birthday");
 }
 
 // person here is parameter
-function singHappyBirthday(person) {
+singHappyBirthday = function (person) {
     console.log("Happy Birthday", person);
 }
 
@@ -15,7 +15,7 @@ singHappyBirthday();
 singHappyBirthday("Kamini");
 
 
-function sumTwoNumbers(num1, num2) {
+const sumTwoNumbers = function(num1, num2) {
     return num1 + num2;
 }
 
@@ -28,7 +28,7 @@ console.log(sumTwoNumbers(-3, 4)); // 1
 console.groupEnd();
 
 // Method 1
-function isEven(num1) {
+let isEven = function(num1) {
     if (num1 % 2 === 0) {
         return true;
     } else {
@@ -37,7 +37,7 @@ function isEven(num1) {
 }
 
 // Method 2
-function isEven(num1) {
+isEven = function(num1) {
     if (num1 % 2 === 0) {
         return true;
     }
@@ -45,7 +45,7 @@ function isEven(num1) {
 }
 
 // Method 3
-function isEven(num1) {
+isEven = function(num1) {
     return num1 % 2 === 0;
 }
 
@@ -62,7 +62,7 @@ console.groupEnd();
 
 console.groupCollapsed("firstChar");
 
-function firstChar(var1) {
+const firstChar = function(var1) {
     return var1[0];
 }
 
@@ -74,7 +74,7 @@ console.log(firstChar(true));  // undefined // as it is boolean
 console.groupEnd();
 
 console.group("findIndex");
-function findIndex(array, target){
+const findIndex = function(array, target){
     for (item in array) {
         if (array[item] == target) { 
           //  console.log("aa",array[item]);
