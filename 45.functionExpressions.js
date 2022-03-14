@@ -1,4 +1,5 @@
 // JavaScript Function Expressions
+// Also called as Anonymous Functions as they don't have a name
 
 let singHappyBirthday = function() {
     console.log("Happy Birthday");
