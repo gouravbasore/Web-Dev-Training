@@ -1,8 +1,8 @@
-let firstName = "PARTEEK"
+let firstName = "Gourav"
 
 /*
 0 1 2 3 4 5 6 // INDEX
-P A R T E E K // VARIABLE
+G O U R A V // VARIABLE
 1 2 3 4 5 6 7 // LENGTH
 */
 
