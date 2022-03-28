@@ -1,5 +1,5 @@
 // Primitive Data Types:
-// string  "parteek"
+// string  "Gourav"
 // number  2,3,4, 5.5
 // boolean true,false
 // undefined

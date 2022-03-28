@@ -10,9 +10,9 @@ function singHappyBirthday(person) {
 }
 
 // Same function if declared twice will override the latest one
-// "Kamini" here is argument
+// "Mani" here is argument
 singHappyBirthday();
-singHappyBirthday("Kamini");
+singHappyBirthday("Mani");
 
 
 function sumTwoNumbers(num1, num2) {
@@ -66,7 +66,7 @@ function firstChar(var1) {
     return var1[0];
 }
 
-console.log(firstChar("Kamini")); // K
+console.log(firstChar("Mani")); // K
 console.log(firstChar([0, 1, 2, 3]));  // 0
 console.log(firstChar([..."1223"]));  // 1
 console.log(firstChar({ key1: "val1" }));  // undefined // as it is an object

@@ -3,7 +3,7 @@
 // toLowerCase();
 // slice();
 
-let firstName = "       parTEEk     ";
+let firstName = "       Gourav     ";
 console.log(firstName);  // Non-Trimmed String
 console.log(firstName.length);  // 19
 firstName = firstName.trim();   // Trims the white spaces and assigns it to variables

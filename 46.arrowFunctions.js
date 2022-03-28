@@ -14,8 +14,8 @@ abc = () => {}
 const singHappyBirthday = person =>  console.log("Happy Birthday", person);
 
 
-// "Kamini" here is argument
-singHappyBirthday("Kamini");
+// "Mani" here is argument
+singHappyBirthday("Mani");
 
 
 const sumTwoNumbers = (num1, num2) => num1 + num2;
@@ -66,7 +66,7 @@ firstChar = (var1) => {
     return var1[0];
 }
 
-console.log(firstChar("Kamini")); // K
+console.log(firstChar("Mani")); // K
 console.log(firstChar([0, 1, 2, 3]));  // 0
 console.log(firstChar([..."1223"]));  // 1
 console.log(firstChar({ key1: "val1" }));  // undefined // as it is an object

@@ -3,9 +3,9 @@
 
 "use strict"
 
-firstName = "Parteek";
+firstName = "Gourav";
 console.log(firstName);
 
-var firstName = "Kamini";
+var firstName = "Mani";
 
 console.log(firstName);

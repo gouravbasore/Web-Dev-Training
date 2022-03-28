@@ -7,10 +7,10 @@
 // {} => is also called as Object Literal
 
 const person = {
-    fname: "Parteek",
+    fname: "Gourav",
     lname: "******",
     age: 29,
-    favPerson: "Kamini",
+    favPerson: "Mani",
     hobbies: ["listening", "sleeping", "travelling", "loving"]
 
 }
@@ -23,5 +23,5 @@ console.log(person.hobbies);
 
 // adding or updating more key value pairs
 person.gender = "male";
-person.lname = "Chhabra";
+person.lname = "Basore";
 console.log(person);

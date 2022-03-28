@@ -11,7 +11,7 @@ console.log(typeof firstName$var);  //undefined
 //const firstName$const;
 //console.log(typeof firstName$const);  //Error
 
-firstName = "Parteek";
+firstName = "Gourav";
 console.log(typeof firstName, firstName);  //string, console.log can have multiple parameters
 
 //******************NULL ************************

@@ -1,8 +1,8 @@
-let string1 = "Parteek";
-let string2 = "Kamini";
+let string1 = "Gourav";
+let string2 = "Mani";
 
 let mergedName = string1 + "-" + string2;
-console.log(mergedName); //Parteek-Kamini
+console.log(mergedName); //Gourav-Mani
 
 
 string1 = "17";

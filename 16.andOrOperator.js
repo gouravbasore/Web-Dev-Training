@@ -1,9 +1,9 @@
 // And Or Operators
-let marriedTo =  "Parteek";
-let wife = "Kamini";
+let marriedTo =  "Gourav";
+let wife = "Mani";
 
 // And Operator
-if(marriedTo === "Parteek" && wife === "Kamini"){
+if(marriedTo === "Gourav" && wife === "Mani"){
     console.log('yay ❤');
 }else{
     console.log('oh shit 🤷‍♀️');

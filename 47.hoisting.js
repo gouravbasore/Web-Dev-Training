@@ -1,7 +1,7 @@
 //hoisting
 
 console.log(hello);
-var hello = "Hello Kamini";  // let and const will give error on line 3
+var hello = "Hello Mani";  // let and const will give error on line 3
 console.log(hello);
 
 helloWorld(); // calling method before declaration, does not work in case of function expressions and arrow functions

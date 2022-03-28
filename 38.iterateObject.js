@@ -1,10 +1,10 @@
 // Iterating Object
 
 const person = {
-    fname: "Parteek",
+    fname: "Gourav",
     lname: "******",
     age: 29,
-    favPerson: "Kamini",
+    favPerson: "Mani",
     "person hobbies": ["listening", "sleeping", "travelling", "loving"]
 }
 

@@ -1,10 +1,10 @@
 // Clone array // Deep Copy
 // Concatenate Two Arrays
 
-let array1 = ["Kamini", "Chhabra"];
+let array1 = ["Mani", "Basore"];
 // Five ways to clone the array
 
-// let array2 = ["Kamini", "Chhabra"];
+// let array2 = ["Mani", "Basore"];
 // let array2 = array1.slice();
 // let array2 = [].concat(array1);
 // let array2 = [...array1]; // spread Operator
